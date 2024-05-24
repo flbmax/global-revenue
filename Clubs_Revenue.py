@@ -25,12 +25,12 @@ with st.sidebar:
     
 st.header('1. Sales Club')
 # profiles created
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=Lhvbszb&theme=horizon&opt=ctxmenu",
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=kXpw&theme=horizon&opt=ctxmenu,currsel",
         height=500,
         width=1000)
-st.caption('*using transaction.checkout_at as the date')
+st.caption('*using transaction.checkout_at as the date apart for the "Yearly Plan Average Basket where it is club_subscription.start_at, which means it is not possible to filter on it')
 
-st.header('1. MRR Club')
+st.header('2. MRR Club')
 # profiles created
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=Lhvbszb&theme=horizon&opt=ctxmenu",
         height=500,
