@@ -28,7 +28,7 @@ st.header('1. Sales Club')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=kXpw&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
-st.caption('''<b>Notes :</b> \n
+st.caption('''**Notes :** \n
 - Using transaction.checkout_at as the date apart for the "Yearly Plan Average Basket where it is club_subscription.start_at, which means it is not possible to filter on it \n
 - "To Date" compares amounts for the months ended in the current year with previous years over the same period''')
 
