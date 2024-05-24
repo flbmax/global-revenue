@@ -34,8 +34,10 @@ st.caption('''**Notes :** \n
 
 st.header('2. MRR Club') 
 # profiles created
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=Lhvbszb&theme=horizon&opt=ctxmenu",
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=FSfpJ&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
-st.caption('*using transaction.spread_start_at as the date')
+st.caption('''**Notes :** \n
+- Using transaction.spread_start_at as the date \n
+- "To Date" compares amounts for the months ended in the current year with previous years over the same period''')
 
