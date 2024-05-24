@@ -29,8 +29,8 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
         height=500,
         width=1000)
 st.caption('''Notes : \n
-           - using transaction.checkout_at as the date apart for the "Yearly Plan Average Basket where it is club_subscription.start_at, which means it is not possible to filter on it \n
-           - "To Date" compares amounts for the months ended in the current year with previous years over the same period''')
+- using transaction.checkout_at as the date apart for the "Yearly Plan Average Basket where it is club_subscription.start_at, which means it is not possible to filter on it \n
+- "To Date" compares amounts for the months ended in the current year with previous years over the same period''')
 
 st.header('2. MRR Club') 
 # profiles created
