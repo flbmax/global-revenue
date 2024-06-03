@@ -26,7 +26,7 @@ with st.sidebar:
 st.write("Choose the club sport:")
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=ASEf&theme=horizon&opt=ctxmenu",
         height=140,
-        width=300)
+        width=1000)
 st.header('1. Sales Club')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=kXpw&theme=horizon&opt=ctxmenu",
         height=500,
