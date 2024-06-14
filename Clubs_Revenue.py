@@ -45,11 +45,16 @@ st.caption('''**Notes :** \n
 
 
 st.header('3. Added Value/Member/Sport') 
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=pFpNg&theme=horizon&opt=ctxmenu",
+        height=100,
+        width=1000)
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=JTMhpQK&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
 st.caption('''**Notes :** \n
 - Calculated by divising the MRR with the number of members per month in each club
 - Mars 2022 high rate is due to one club paying 1500e with 16 members for one month \n''')
+
+
 
 
