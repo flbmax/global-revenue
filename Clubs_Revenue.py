@@ -26,7 +26,7 @@ with st.sidebar:
 st.write("Choose the club sport:")
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=ASEf&theme=horizon&opt=ctxmenu",
         height=140,
-        width=1000)
+        width=1000  )
 st.header('1. Sales Club')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=kXpw&theme=horizon&opt=ctxmenu",
         height=500,
@@ -42,4 +42,14 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 st.caption('''**Notes :** \n
 - Using transaction.spread_start_at as the date \n
 - "To Date" compares amounts for the months ended in the current year with previous years over the same period''')
+
+
+st.header('3. Added Value/Member/Sport') 
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=JTMhpQK&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=1000)
+st.caption('''**Notes :** \n
+- Calculated by divising the MRR with the number of members per month in each club
+- Mars 2022 high rate is due to one club paying 1500e with 16 members for one month \n''')
+
 
